@@ -8,6 +8,24 @@ cd cli-utilities
 
 chmod +x replace-in-files.sh
 sudo ln -s $PWD/replace-in-files.sh /usr/local/bin/replace-in-files
+
+chmod +x find-in-files.sh
+sudo ln -s $PWD/find-in-files.sh /usr/local/bin/find-in-files
+```
+
+# Usage
+
+## find in files
+Find all files containing specific text recursively in current path
+```
+find-in-files "liebe"
+```
+
+## replace in files
+
+Replace text in text files recursively in current path
+```
+replace-in-files "liebe" "böse"
 ```
 
 # Help
