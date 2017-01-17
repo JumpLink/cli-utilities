@@ -1,6 +1,15 @@
 # cli-utilities
 A set of command line utilities
 
+# Install
+```
+git clone https://github.com/JumpLink/cli-utilities.git
+cd cli-utilities
+
+chmod +x replace-in-files.sh
+sudo ln -s $PWD/replace-in-files.sh /usr/local/bin/replace-in-files
+```
+
 # Help
 * [How to to create a command line shortcut?](http://unix.stackexchange.com/a/226321)
 
